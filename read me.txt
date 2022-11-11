@@ -1,0 +1,12 @@
+Really Rough idea here cause I'm not good at this bit
+
+While not technically needed, Art and Icons are the default folders for well, art and icons.
+
+CharacterSelect.html - The main thing. Reads from character.js
+
+CharacterSelectBuilder.html - Can Add characters, and fill in infot. again reads from character.js, and has a copy code button for pasting over it. (Never really looked into or figured out how to get it to overwrite or download a new js file.)
+
+charactersheets.thml - Mostly for convience. Throw it up somewhere accessible (Github.io works!) with character.js and put which specific characters you want to share, then send a link out. I presonally make a copy and rename it for which ever game I'm applying for.
+
+please message #ShingekiSkunk#2922 on discord or report issues at https://github.com/ShingetsuStudios/CharacterSelect
+I hope this little hyper fixation project helps some people out <3
