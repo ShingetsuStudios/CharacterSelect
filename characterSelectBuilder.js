@@ -240,6 +240,7 @@ function renderProfile(n) {
             navbar += "<a href='#" + key.replace(' ', '-') + "'>" + key + "</a><br>"
         }
     }
+    bAppend += `<hr><h3 id='Notes'><b>Notes</b></h3><p>` + character[n].Notes + `</p>`
     if (char.art.length > 1) {
         bAppend += `<div id='img'><div class='imgbutton' id='imgbuttonLeft'>&#8592;</div><div class='imgbutton' id='imgbuttonRight'>&#8594;</div><img id='characterImg' src='` + char.art[artN] + `'></div>`
     } else {
