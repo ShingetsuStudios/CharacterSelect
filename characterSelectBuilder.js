@@ -71,7 +71,7 @@ $(document).ready(function () {
     $('#copyCode').on('click', function () {
         copyToClipboard(character)
     })
-    $('#downloadCode').on('click', function() {
+    $('#downloadCode').on('click', function () {
         downloadJSON()
     })
     $('#modeChange').on('click', function () {
@@ -202,7 +202,8 @@ function renderProfile(n) {
     <tr><td colspan="2">Race: `+ char.race + `</td></tr>
     <tr><td colspan="2">Alignment: `+ char.alignment + `</td></tr>
     <tr><td colspan="2">Age: `+ char.stats.age + `</td></tr>
-    <tr><td colspan="2">Height/Weight: `+ char.stats.height + `/ ` + char.stats.weight + `lbs</td></tr>
+    <tr><td colspan="2">Height:` + character[n].stats.height + `</td></tr>
+    <tr><td colspan="2">Weight: `+ character[n].stats.weight + `</td></tr>
     <tr><td colspan="2">Pronouns: `+ char.pronouns + `</td></tr>
     <tr><td colspan="2">Orientation: `+ char.orientation + `</td></tr>
     </tbody></table>
@@ -292,7 +293,7 @@ function renderBuilder(n) {
                     "birthday": "",
                     "age": 0,
                     "height": "",
-                    "weight": 0,
+                    "weight": "",
                     "skin": "",
                     "eye": "",
                     "hair": ""
@@ -434,7 +435,7 @@ function parseToJson() {
             "birthday": $('#Genbirthday').val(),
             "age": $('#Genage').val(),
             "height": $('#Genheight').val(),
-            "weight": Number($('#Genweight').val()),
+            "weight": $('#Genweight').val(),
             "skin": $('#Genskin').val(),
             "eye": $('#Geneye').val(),
             "hair": $('#Genhair').val()

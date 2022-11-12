@@ -27,7 +27,7 @@ var character = [
          "birthday": "??/??/????",
          "age": "18",
          "height": "",
-         "weight": 0,
+         "weight": "",
          "skin": "",
          "eye": "",
          "hair": ""
